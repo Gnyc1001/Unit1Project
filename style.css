@@ -1,0 +1,48 @@
+header{font-size: 80px; font-weight: 700; font-family: "Stencil"; text-align: center; animation: pulse 5s infinite; animation-direction: alternate-reverse; width: 1350px; background-image:url(img/back.jpg); background-size: 1366px 300px; background-repeat: no-repeat; margin-top: -20px; }
+
+#container { text-align: center; width: 1350px; margin-right: 200px; margin-top: -30px; }
+
+body { background-color: lightgrey; background-size: cover; }
+footer { text-align: left; background-color: black; color: grey; font-size: 20px;  }
+
+h1{font-size: 25px; animation: pulse 5s infinite; animation-direction: alternate-reverse;  }
+h2{font-size: 40px; margin-top: -5px; }
+
+.topbutton { width: 100px; height: 100px; font-size: 20px; border-radius: 50%; cursor: pointer; margin-top: -100px; margin-right: 100px; margin-left: 100px; }
+
+.topbutton:hover { background: #ff0000; border-color: #c0c0c0; color: white; animation: pulse 5s infinite; animation-direction: alternate-reverse; }
+
+#bigbox{ border: 1px grey; position: relative; width: 1150px; height: 550px; margin-left: 90px; margin-top: -40px;}
+
+#player1name, #player2name { color: #838381; text-align: center; float: center; margin-top: -5px; }
+
+.table { background-image:url(img/grid.jpg); width: 500px; height: 500px; border: 1px solid #000; margin-top: 20px; border: 8px solid gray; border-radius: 10px; }
+.table div { width: 20px; height: 20px; line-height: 0%; font-size: 0%; border: 1px solid #000; }
+.table:hover, .fogofwar:hover { cursor:pointer; border-color: red; }
+
+#table1, #onescore, #onemiss, #onehits { float: left; }
+#table2, #twoscore, #twohits, #twomiss { float: right; }
+
+#subtable1, #subtable2 {height:420px; width: 420px; margin-left: 60px; margin-top: 35px; }
+
+td, tr { border: limegreen solid 1px; width: 40px; height: 40px; }
+
+.hit { background: green; }
+.miss { background: gray; }
+.ship {background-color: black; }
+.fogofwar { background: black; width: 500px; height: 500px; border: 1px solid #000; margin-top: 20px; border: 8px solid gray; border-radius: 10px; }
+
+#consolecommand { width: 1300px; height: 120px; background-color: grey; margin: 20px 100px 60px auto; border: 8px solid darkgray; display:block; }
+
+.bottomid { width: 100px; height: 100px; font-size: 20px; border-radius: 50%; background-color: black; color: green;
+  margin: 0 auto auto 8px; text-align: center; line-height: 100px; display: inline-block; padding: 10px; }
+
+.clear { background: white; }
+
+@keyframes pulse {
+  0% {
+    color: #838381;
+  }
+  100% {
+    color: black;
+  }

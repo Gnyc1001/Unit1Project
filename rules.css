@@ -1,0 +1,18 @@
+header{font-size: 80px; font-weight: 700; font-family: "Stencil"; text-align: center; animation: pulse 5s infinite; animation-direction: alternate-reverse; width: 1300px; height: 200px; background-image:url(img/back.jpg); background-size: 1200px 200px;background-repeat: no-repeat; margin-top: -20px; }
+
+body { background-color: lightgrey; background-size: cover; }
+footer { text-align: left; background-color: black; color: grey; font-size: 20px; }
+
+h1{font-size: 25px; animation: pulse 5s infinite; animation-direction: alternate-reverse;  }
+
+#return { width: 100px; height: 100px; font-size: 20px; border-radius: 50%; cursor: pointer; }
+
+#return:hover { background: #ff0000; border-color: #c0c0c0; color: white; animation: pulse 5s infinite; animation-direction: alternate-reverse; }
+
+@keyframes pulse {
+  0% {
+    color: #838381;
+  }
+  100% {
+    color: black;
+  }
